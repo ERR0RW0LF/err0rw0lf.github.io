@@ -2,7 +2,6 @@
 
 // Add your JavaScript code here
 // You can handle user interactions, perform calculations, or manipulate HTML elements using JavaScript
-eruda.init();
 
 // Example code:
 // Select an HTML element by its ID
