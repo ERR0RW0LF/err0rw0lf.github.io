@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Tailwind Website</title>
-  <link rel="stylesheet" href="css/tailwind.css">
+  <link rel="stylesheet" href="dist/tailwind.css">
 </head>
-
-<body>
-  <header>
-    <!-- Add your header content here -->
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-blue-600 text-white p-4">
+	<h1 class="text-2xl">Welcome to My Tailwind Website</h1>
   </header>
-
-  <nav>
-    <!-- Add your navigation content here -->
+  <nav class="bg-gray-200 p-4">
+	<ul class="flex space-x-4">
+	  <li><a href="index.html" class="text-blue-600 hover:underline">Home</a></li>
+	  <li><a href="pages/about.html" class="text-blue-600 hover:underline">About</a></li>
+	  <li><a href="pages/services.html" class="text-blue-600 hover:underline">Services</a></li>
+	  <li><a href="pages/contact.html" class="text-blue-600 hover:underline">Contact</a></li>
+	</ul>
   </nav>
-
-  <main>
-    <!-- Add your main content here -->
+  <main class="p-4">
+	<h2 class="text-xl font-bold mb-4">Home Page</h2>
+	<p>Welcome to the home page of my Tailwind CSS website.</p>
   </main>
-
-  <footer>
-    <!-- Add your footer content here -->
+  <footer class="bg-gray-800 text-white p-4 text-center">
+	<p>&copy; 2022 My Tailwind Website. All rights reserved.</p>
   </footer>
-
   <script src="js/main.js"></script>
 </body>
-
 </html>
