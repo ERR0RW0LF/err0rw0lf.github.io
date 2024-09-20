@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Reset default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font styles */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: monospace;
+}
+
+/* Set styles for headings */
+h1, h2, h3 {
+  color: #00ff00;
+}
+
+/* Set styles for links */
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Set styles for code blocks */
+pre {
+  background-color: #000;
+  color: #00ff00;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+/* Set styles for code snippets */
+code {
+  background-color: #000;
+  color: #00ff00;
+  padding: 2px;
+}
+
+/* Set styles for terminal-like elements */
+.terminal {
+  background-color: #000;
+  color: #00ff00;
+  padding: 10px;
+  border: 1px solid #00ff00;
+}
+
+.terminal .prompt {
+  color: #00ff00;
+}
+
+.terminal .command {
+  color: #fff;
+}
+
+.terminal .output {
+  color: #00ff00;
+}
