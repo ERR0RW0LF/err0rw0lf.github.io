@@ -5,3 +5,4 @@
 // Example: Change the background color of the body element
 document.body.style.backgroundColor = "#000000";
 document.body.style.color = "#00FF00";
+
